@@ -14,7 +14,7 @@ function calcularGasto(){
         document.getElementById('resultado').innerHTML = err;
 
      }else {
-     document.getElementById('resultado').innerHTML = `Você gastará: R$${totalGasolina.toFixed(2)} e prescisará de ${resultAutonomia} Litros de gasolina.`;
+     document.getElementById('resultado').innerHTML = `Você gastará: R$${totalGasolina.toFixed(2)} e prescisará de ${resultAutonomia.toFixed(3)} Litros de gasolina.`;
      }
 
     }
