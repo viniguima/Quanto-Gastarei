@@ -1,0 +1,283 @@
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url(../fonts/Montserrat/static/Montserrat-Regular.ttf);
+}
+body {
+  font-family: 'Montserrat-Regular';
+  margin: 80px;
+  background-color: #2d2d2d;
+}
+
+
+.first-content {
+  display: block;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 40px !important;
+  
+}
+.buttons-pages {
+  text-align: center;
+  color: #fff;
+  font-family: 'Montserrat-Regular';
+  margin-bottom: 55px;
+  
+}
+.page-name{
+  text-align: center;
+  font-family: 'Montserrat-Regular';
+  font-size: 22px;
+  color: #fff;
+}
+
+
+.button-introducao{
+  background-image: -moz-linear-gradient( -90deg, rgb(126, 107, 234) 0%, rgb(82, 77, 224) 100%);
+  background-image: -webkit-linear-gradient( -90deg, rgb(126, 107, 234) 0%, rgb(94, 77, 224) 100%);
+  background-image: -ms-linear-gradient( -90deg, rgb(135, 107, 234) 0%, rgb(77, 94, 224) 100%);
+  box-shadow: 0px 5px 12px 0px rgba(0, 0, 0, 0.16);
+  font-family: 'Montserrat-Regular';
+  font-size: 12px;
+  text-decoration: none !important;
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px 55px;
+  margin-right: 20px;
+}
+.button-contato{
+  background-image: -moz-linear-gradient( -90deg, rgb(126, 107, 234) 0%, rgb(82, 77, 224) 100%);
+  background-image: -webkit-linear-gradient( -90deg, rgb(126, 107, 234) 0%, rgb(94, 77, 224) 100%);
+  background-image: -ms-linear-gradient( -90deg, rgb(135, 107, 234) 0%, rgb(77, 94, 224) 100%);
+  box-shadow: 0px 5px 12px 0px rgba(0, 0, 0, 0.16);
+  font-family: 'Montserrat-Regular';
+  font-size: 12px;
+  text-decoration: none !important;
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px 65px;
+  margin-top: 20px;
+}
+@media (min-width: 200px) and (max-width: 768px) {
+	.button-contato{
+    text-align: center;
+	}
+}
+@media (min-width: 200px) and (max-width: 768px) {
+	.button-introducao{
+    margin-right: 0px !important;
+	}
+}
+@media (min-width: 200px) and (max-width: 768px) {
+	.form-content{
+    margin-left: -65px !important;
+    width: 340px !important;
+    height: 660px !important;
+	}
+  #height-mobile{
+    height: 850px !important;
+  }
+}
+@media (min-width: 820px) and (max-width: 1180px) {
+	.form-content{
+    margin-left: 0px !important;
+    width: 700px !important;
+    height: 660px !important;
+	}
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+	.form-content{
+    margin-left: -40px !important;
+    width: 700px !important;
+    height: 660px !important;
+	}
+}
+.form-content {
+  text-align: center;
+  background-color: #5A73ED;
+  color: #403f45;
+  width: 686px;
+  height: 550px;
+  border-radius: 5px;
+  margin-left: 288px;
+  margin-top: 24px;
+}
+
+
+
+
+input[type=number], select {
+  font-family: 'Montserrat-Regular';
+  overflow: hidden;
+  width: 216px;
+  padding: 16px 30px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+@media (min-width: 200px) and (max-width: 768px) {
+  input[type=number], select {
+    font-family: 'Montserrat-Regular';
+    overflow: hidden;
+    width: 70%;
+    padding: 16px 30px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+}
+#resultado {
+  font-family: 'Montserrat-Regular';
+  color: #fff;
+  font-size: 30px;
+}
+
+@media (min-width: 200px) and (max-width: 768px) {
+  #resultado {
+    font-family: 'Montserrat-Regular';
+    overflow: hidden;
+    width: 70%;
+    padding: 16px 30px;
+    padding-bottom: 200px;
+    margin: 8px 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+}
+
+
+.button-calcular {
+  background-color: #2d2d2d;
+  color: #fff;
+  font-size: 20px;
+  height: 40px!important;
+  width: 200px !important;
+  border-radius: 15px;
+  text-align: center;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: rgba(119, 119, 119, 0.8);
+}
+
+input[id=email], select {
+  overflow: hidden;
+  padding: 16px 7px;
+  margin: 22px 5px 5px;
+  width: 258px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+@media (min-width: 200px) and (max-width: 768px) {
+  input[id=email], select {
+    font-family: 'Montserrat-Regular';
+    overflow: hidden;
+    width: 70%;
+    padding: 16px 30px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+}
+
+.border1 {
+  background-color: #e5e5e5;
+  height: 1px;
+  margin: 8px 50px;
+  width: 600px;
+}
+
+.text-introduction {
+  color: #fff;
+  font-family: 'Montserrat-Regular';
+  font-size: 13px;
+  line-height: 23px;
+  text-align: start !important;
+  padding: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+.consulteLocalizacao{
+  color: #fff;
+  font-size: 20px;
+  padding-top: 15px;
+}
+#button-consultar  {
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+}
+.button-consultar{
+  background-color: #2d2d2d;
+  color: #fff;
+  font-size: 20px;
+  height: 40px!important;
+  width: 200px !important;
+  border-radius: 15px;
+  text-align: center;
+  cursor: pointer;
+}
+
+
+@media (min-width: 200px) and (max-width: 768px) {
+	.only-desk{
+    display: none;
+	}
+}
+@media (min-width: 769px) {
+	.only-mobile{
+    display: none;
+	}
+}
+@media (min-width: 1024px) {
+	.form-content{
+    margin-left: 100px !important;
+    width: 700px !important;
+    height: 550px !important;
+	}}
+@media (min-width: 912px) and  (max-width: 915px)  {
+	.form-content{
+    margin-left: 27px !important;
+    width: 700px !important;
+    height: 660px !important;
+	}}
+@media (min-width: 1440px) {
+	.form-content{
+    margin-left: 285px !important;
+    width: 700px !important;
+    height: 550px !important;
+	}}
+@media (min-width: 1900px) {
+	.form-content{
+    margin-left: 535PX !important;
+    width: 700px !important;
+    height: 550px !important;
+	}}
+@media (min-width: 2500px) {
+	.form-content{
+    margin-left: 850px !important;
+    width: 700px !important;
+    height: 550px !important;
+	}}
+  @media (min-width: 414px) and (max-width: 500px) {
+    .form-content{
+      margin-left: -40px !important;
+      width: 340px !important;
+      height: 660px !important;
+    }
+  }
+  @media (min-width: 412px) and (max-width: 413px) {
+    .form-content {
+      margin-left: -48px !important;
+      width: 340px !important;
+      height: 660px !important;
+  }
+  }
+  @media (min-width: 540px) and (max-width: 550px) {
+    .form-content {
+      margin-left: 18px !important;
+      width: 340px !important;
+      height: 660px !important;
+  }
+  }
