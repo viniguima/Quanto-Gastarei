@@ -239,9 +239,9 @@ a {
     display: none;
 	}
 }
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
 	.form-content{
-    /* margin-left: 100px !important; */
+    margin-left: 100px !important;
     width: 700px !important;
     height: 630px !important;
 	}}
