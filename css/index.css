@@ -115,9 +115,6 @@ body {
   margin-top: 24px;
 }
 
-
-
-
 input[type=number], select {
   font-family: 'Montserrat-Regular';
   overflow: hidden;
@@ -249,6 +246,12 @@ a {
 @media (min-width: 1024px) and (max-width: 1300px) {
 	.form-content{
     margin-left: 100px !important;
+    width: 700px !important;
+    height: 630px !important;
+	}}
+@media (min-width: 1350px) and (max-width: 1366px) {
+	.form-content{
+    margin-left: 250px !important;
     width: 700px !important;
     height: 630px !important;
 	}}
