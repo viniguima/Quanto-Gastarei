@@ -97,6 +97,13 @@ body {
     height: 810px !important;
 	}
 }
+@media (min-width: 768px) and (max-width: 1023px) {
+	.form-content{
+    margin-left: -40px !important;
+    width: 700px !important;
+    height: 810px !important;
+	}
+}
 .form-content {
   text-align: center;
   background-color: #5A73ED;
@@ -239,7 +246,7 @@ a {
     display: none;
 	}
 }
-@media screen and (min-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1300px) {
 	.form-content{
     margin-left: 100px !important;
     width: 700px !important;
