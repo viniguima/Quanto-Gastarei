@@ -249,7 +249,7 @@ a {
     width: 700px !important;
     height: 630px !important;
 	}}
-@media screen and (max-width: 1304px) {
+@media (min-width: 1302px) and (max-width: 1304px) {
 	.form-content{
     margin-left: 220px !important;
     width: 700px !important;
@@ -302,6 +302,20 @@ a {
   @media (min-width: 540px) and (max-width: 570px) {
     .form-content {
       margin-left: 18px !important;
+      width: 340px !important;
+      height: 810px !important;
+  }
+  }
+  @media (min-width: 370px) and (max-width: 375px) {
+    .form-content {
+      margin-left: -58px !important;
+      width: 340px !important;
+      height: 810px !important;
+  }
+  }
+  @media (min-width: 720px) and (max-width: 725px) {
+    .form-content {
+      margin-left: 114px !important;
       width: 340px !important;
       height: 810px !important;
   }
