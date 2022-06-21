@@ -15,7 +15,7 @@ function calcularGasto(){
      if(isNaN(resultadoFinal)) {
         document.getElementById('resultado').innerHTML = err;
 
-     }else {
+     } else {
      document.getElementById('resultado').innerHTML = `Você gastará: R$${resultViagensGas.toFixed(2)} e prescisará de ${resultViagensAut.toFixed(2)} Litros de gasolina.`;
      }
 
