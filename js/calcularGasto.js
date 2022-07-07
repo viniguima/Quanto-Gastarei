@@ -1,9 +1,9 @@
 
 function calcularGasto(){
     var inputDistancia = parseFloat(document.getElementById('distancia').value),
-     inputAutonomia = parseFloat(document.getElementById('autonomia').value),
-     inputPrecGasolina = parseFloat(document.getElementById('precoGas').value)
-      inputViagens = parseInt(document.getElementById('viagens').value)
+        inputAutonomia = parseFloat(document.getElementById('autonomia').value),
+        inputPrecGasolina = parseFloat(document.getElementById('precoGas').value)
+        inputViagens = parseInt(document.getElementById('viagens').value)
 
      var resultAutonomia = (inputDistancia / inputAutonomia)
      var totalGasolina = resultAutonomia*inputPrecGasolina
