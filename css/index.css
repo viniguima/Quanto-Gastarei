@@ -231,10 +231,6 @@ a {
 #viagens{
   padding: 7px 30px!important;
 }
-#version {
-  color: #fff;
-}
-
 
 @media (min-width: 200px) and (max-width: 768px) {
 	.only-desk{
