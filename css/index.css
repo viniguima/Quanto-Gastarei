@@ -152,6 +152,11 @@ input[type=number], select {
   color: #fff;
   font-size: 30px;
 }
+#resultadoAlcOrGas {
+  font-family: 'Montserrat-Regular';
+  color: #fff;
+  font-size: 30px;
+}
 
 @media (min-width: 200px) and (max-width: 768px) {
   #resultado {
@@ -161,6 +166,19 @@ input[type=number], select {
     padding: 16px 30px;
     padding-bottom: 200px;
     margin: 8px 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+}
+@media (min-width: 200px) and (max-width: 768px) {
+  #resultadoAlcOrGas {
+    font-family: 'Montserrat-Regular';
+    overflow: hidden;
+    font-size: 25px !important;
+    width: 70%;
+    padding: 16px 30px;
+    padding-bottom: 200px;
+    margin: -50px 15px;
     border: 1px solid #ccc;
     border-radius: 10px;
   }

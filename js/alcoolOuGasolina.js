@@ -5,11 +5,11 @@ function calcularGastoGasouAlc(){
     var divisaoCombust = precoAlc/precoGas;
 
     if(divisaoCombust < 0.7){
-        document.getElementById('resultado').innerHTML = 'É recomendável abastecer com álcool(etanol).'
+        document.getElementById('resultadoAlcOrGas').innerHTML = 'É recomendável abastecer com álcool(etanol).'
     } else if(divisaoCombust > 0.7) {
-        document.getElementById('resultado').innerHTML = 'É recomendável abastecer com gasolina.'
+        document.getElementById('resultadoAlcOrGas').innerHTML = 'É recomendável abastecer com gasolina.'
     }else{
-        document.getElementById('resultado').innerHTML = 'Insira um valor'
+        document.getElementById('resultadoAlcOrGas').innerHTML = 'Insira um valor'
 
     }
 
