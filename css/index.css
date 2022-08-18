@@ -174,7 +174,7 @@ input[type=number], select {
   #resultadoAlcOrGas {
     font-family: 'Montserrat-Regular';
     overflow: hidden;
-    font-size: 25px !important;
+    font-size: 20px !important;
     width: 70%;
     padding: 16px 30px;
     padding-bottom: 200px;
