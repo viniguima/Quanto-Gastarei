@@ -34,7 +34,7 @@
     </script>
   </head>
   <body>
-    <title>Quanto Gastarei - Gasolina</title>
+    <title>Quanto Gastarei - Álcool ou Gasolina</title>
      
       <main>
         <div class="first-content">
@@ -53,45 +53,36 @@
          
         </div>
       <div class="page-name">
-       <span>Quanto Gastarei de Combustível</span> <br>
+       <span>Consulte se vale a pena abastecer com álcool ou gasolina.</span> <br>
         <span><img src="./img/detail-title.png" alt="Detalhe Titulo"></span>
       </div>
       
         <!-- <div class="container-fluid"> -->
         <div class="form-content">
-          <div class="consultarLocalizacao">
+          <div class="consultarLocalizacao" style="padding: 25px;">
             <br>
-          <span class="consulteLocalizacao">Consulte distância do trajeto</span> <br><br>
-            <a href="https://www.google.com.br/maps/dir//" target="_blank"><button class="button-consultar">Consultar</button></a>
+          <span class="consulteLocalizacao">Como funciona esse cálculo?</span> <br><br>
+          <span class="consulteLocalizacao" style="font-size: 16px;">É estipulado um valor de 0,7 ou melhor a diferença gira em torno de 70% a 75%, claro variando do mofo que o motorista dirige entre variáveis que podem afetar
+            o cálculo, porém para esse projeto estipulamos o valor de 70% que é a media para apresentar ao usuário se vale a pena abastecer com álcool ou gasolina.
+          </span>
         </div>
-        <br><br>
+        <br>
           <!-- Inputs -->
           <label>
-              <span id="button-consultar">Insira a distância do trajeto em Km:</span><br><br>
-            <input type="number" id="distancia"  placeholder="Distancia*"> 
+              <span id="button-consultar">Insira o preço da gasolina</span><br><br>
+            <input type="number" id="valorGas"  placeholder="Valor Gasolina*"> 
             </label>
             <br><br>
         
             <label>
-            <span id="button-consultar">Insira a autonomia do seu veículo Km/l:</span><br><br>
-            <input type="number" id="autonomia" placeholder="Autonomia*" >
+            <span id="button-consultar">Insira o preço do álcool:</span><br><br>
+            <input type="number" id="valorAlc" placeholder="Valor Álcool*" >
             </label>
             <br><br>
   
-            <label>
-              <span id="button-consultar">Insira o preço do Combustível:</span><br><br>
-              <input type="number" id="precoGas" placeholder="Preço do Combustível*" >
-              </label>
-              <br><br>
-              <label>
-                <span id="button-consultar">Insira o número de viagens que irá fazer:</span><br><br>
-                <input type="number" id="viagens" placeholder="Número de viagens*" >
-                </label>
-              
-                <br>
             
             <br>
-              <button class="button-calcular" type="button" onclick="calcularGasto()">Calcular</button>
+              <button class="button-calcular" type="button" onclick="calcularGastoGasouAlc()">Calcular</button>
               <br><br><br><br>
           
               <p style="border: none;" id="resultado"></p>
@@ -104,7 +95,7 @@
     </div>
 </main>  
   </body>
-  <script src="./js/calcularGasto.js"></script>
+  <script src="./js/alcoolOuGasolina.js"></script>
   <script src="./js/onlyNumber.js"></script>
   <script src="./js/mostrar.js"></script>
   <script src="./js/validEmail.js"></script>

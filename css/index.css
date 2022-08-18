@@ -63,6 +63,19 @@ body {
   padding: 10px 65px;
   margin-top: 20px;
 }
+.button-alcool{
+  background-image: -moz-linear-gradient( -90deg, rgb(126, 107, 234) 0%, rgb(82, 77, 224) 100%);
+  background-image: -webkit-linear-gradient( -90deg, rgb(126, 107, 234) 0%, rgb(94, 77, 224) 100%);
+  background-image: -ms-linear-gradient( -90deg, rgb(135, 107, 234) 0%, rgb(77, 94, 224) 100%);
+  box-shadow: 0px 5px 12px 0px rgba(0, 0, 0, 0.16);
+  font-family: 'Montserrat-Regular';
+  font-size: 12px;
+  text-decoration: none !important;
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px 35px;
+  margin-top: 20px;
+}
 @media (min-width: 200px) and (max-width: 768px) {
 	.button-contato{
     text-align: center;
